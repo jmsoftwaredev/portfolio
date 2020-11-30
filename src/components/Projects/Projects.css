@@ -1,0 +1,50 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.projects-title {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 50px;
+}
+
+/* NaHora */
+.nahora-container {
+  display: flex;
+  padding: 48px 24px;
+  flex-direction: row;
+  align-self: stretch;
+  justify-content: center;
+  margin-bottom: 100px;
+  background-image: url("../../images/seamless-background.png");
+}
+
+.nahora-image {
+  margin: 24px;
+  width: 800px;
+}
+
+.nahora-info {
+  display: flex;
+  flex-direction: column;
+  color: #222;
+  max-width: 30vw;
+  padding: 12px 24px;
+  background-color: #f4f4f4a8;
+  border-radius: 10px;
+}
+
+.project-title {
+  font-size: 30px;
+}
+
+.project-details {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}

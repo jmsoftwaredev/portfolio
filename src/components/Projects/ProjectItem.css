@@ -1,0 +1,44 @@
+.project-container {
+  display: flex;
+  padding: 24px;
+  flex-direction: row;
+  align-self: stretch;
+  justify-content: center;
+  margin-bottom: 100px;
+  color: #16181d99;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+}
+
+.gb-image {
+  width: 800px;
+}
+
+.project-title {
+  font-size: 30px;
+}
+
+.project-details {
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-column img {
+  width: 60%;
+  margin-top: 50px;
+}
