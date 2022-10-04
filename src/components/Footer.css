@@ -2,14 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 300px; */
-    padding-top: 24px;
-    background-color: #16181D;
+    padding-top: 70px;
     color: #f4f4f4;
+    height: 100vh;
 }
 
 .contact-title {
+    margin-top: 16px;
     font-size: 30px;
+}
+
+.contact-subtitle {
+    font-size: 14px;
 }
 
 .footer-small-text {
@@ -26,10 +30,15 @@
 }
 
 .contact-form {
-    width: 50vw;
-    max-width: 500px;
+    width: 500px;
+    max-width: 90vw;
 }
 
 .submit-button {
     align-self: flex-end;
+}
+
+.form-textarea {
+    min-height: 100px;
+    max-height: 300px;
 }

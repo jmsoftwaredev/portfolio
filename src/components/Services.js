@@ -4,7 +4,8 @@ import "./Services.css";
 function Services() {
   return (
     <div className="services-container" id="services">
-      <span className="services-title">SERVIÇOS</span>
+      <span className="services-title">Serviços</span>
+      <span className="services-subtitle">Listamos os tipos de serviços prestados por nós</span>
       <div className="service-images-container">
         <Service
           src={require("../images/services/web.png")}

@@ -1,31 +1,43 @@
 .project-container {
   display: flex;
-  padding: 24px;
   flex-direction: row;
+  flex-wrap: wrap;
   align-self: stretch;
   justify-content: center;
-  margin-bottom: 100px;
+  padding: 24px;
+  margin-bottom: 64px;
   color: #16181d99;
 }
 
 .project-info {
   display: flex;
   flex-direction: column;
-  max-width: 30vw;
+  width: 400px;
+  max-width: 90vw;
 }
 
 .gb-image {
+  object-fit: contain;
   width: 800px;
+  max-width: 90vw;
+}
+/* Imagem no tamanho original em telas grandes */
+@media screen and (min-width: 1800px){
+  .gb-image{
+    width: 1200px;
+  }
 }
 
 .project-title {
+  text-align: center;
   font-size: 30px;
 }
 
 .project-details {
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
   margin-top: 20px;
+  font-family: "Montserrat";
 }
 
 .flex-row-reverse {
@@ -41,4 +53,10 @@
 .flex-column img {
   width: 60%;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 1100px){
+  .flex-column img {
+    width: 90vw;
+  }
 }

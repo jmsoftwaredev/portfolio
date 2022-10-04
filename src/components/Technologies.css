@@ -6,15 +6,32 @@
     background-color: #F4F4F4;
     color: rgba(0, 0, 0, 0.65);
     padding: 24px 0px;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .techs-title {
+    color: rgba(0, 0, 0, 0.65);
     font-size: 40px;
 }
+
+.techs-subtitle {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.35);
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 0 8px;
+}
+
 
 .tech-images-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .tech-container {
@@ -22,6 +39,11 @@
     align-items: center;
     flex-direction: row;
     margin: 24px;
+    transition: transform 0.3s ease;
+}
+
+.tech-container:hover {
+  transform: scale(1.1);
 }
 
 .tech-image {
@@ -38,7 +60,7 @@
 
 .tech-info-title {
     font-size: large;
-    color: #222
+    color: #222;
 }
 
 .tech-info-details {

@@ -1,5 +1,6 @@
 .header-link {
   font-size: 14px;
+  font-weight: 500;
   margin-right: 30px;
   border-color: #58973b;
   color: #F4F4F4;
@@ -11,9 +12,42 @@
   cursor: pointer;
   color: #F4F4F4;
   text-decoration: none;
-  border-bottom: 1px solid #58973b;
+  border-bottom: 2px solid #58973b;
 }
 
 .active-header-link {
-  border-bottom: 1px solid #58973b;
+  border-bottom: 2px solid #58973b;
+}
+
+
+@media screen and (max-width: 960px){
+  .header-link {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+  }
+
+  .header-link span {
+    flex: 1;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .header-link:hover {
+    cursor: pointer;
+    color: #F4F4F4;
+    text-decoration: none;
+    background-color: #58973b80;
+    border: 0;
+    transition: all 0.3s ease;
+  }
+
+  .active-header-link {
+    border: 0;
+    background-color: #58973b;
+  }
 }
